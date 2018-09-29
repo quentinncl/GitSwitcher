@@ -1,0 +1,21 @@
+{
+  "name": "switchergit",
+  "version": "1.0.0",
+  "description": "Switch Git Users desktop App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron -r babel-register .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Quentin Nicolle",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^3.0.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.3.13"
+  },
+  "devDependencies": {
+    "babel-preset-electron": "1.4.15"
+  }
+}
