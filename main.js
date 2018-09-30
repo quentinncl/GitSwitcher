@@ -9,7 +9,10 @@ let mainWindow
 // Listen for app to be reay
 app.on('ready', () => {
     //Create New Window
-    mainWindow = new BrowserWindow({})
+    mainWindow = new BrowserWindow({
+        length: 200,
+        width: 800
+    })
 
     //Load html into windows
     mainWindow.loadURL(url.format({
