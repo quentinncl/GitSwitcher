@@ -21,7 +21,6 @@
     "electron": "^3.0.2"
   },
   "devDependencies": {
-    "babel-preset-electron": "1.4.15",
-    "electron-connect": "^0.6.3"
+    "babel-preset-electron": "1.4.15"
   }
 }
