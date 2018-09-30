@@ -6,7 +6,13 @@ export const mainMenuTemplate = [
     {
         label: 'File',
         submenu: [
-            { label: 'Add User' }
+            { label: 'Add User' },
+            { 
+                label: 'Quit',
+                click(){
+                    app.quit()
+                }
+            }
         ]
     },
     {
