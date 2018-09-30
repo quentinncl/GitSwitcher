@@ -18,7 +18,8 @@
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-register": "^6.3.13",
-    "electron": "^3.0.2"
+    "electron": "^3.0.2",
+    "materialize-css": "^1.0.0-rc.2"
   },
   "devDependencies": {
     "babel-preset-electron": "1.4.15"
