@@ -4,15 +4,14 @@
   "description": "Switch Git Users desktop App",
   "main": "main.js",
   "scripts": {
-    "start": "electron -r babel-register .",
-    "start-dev": "webpack-dev-server --inline --watch --hot main.js",
+    "start": "electron -r babel-register src/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Quentin Nicolle",
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/wmira/electron-livereload-starter.git"
+    "url": "https://github.com/quentinncl/SwitcherGit.git"
   },
   "dependencies": {
     "babel-preset-es2015": "^6.3.13",
